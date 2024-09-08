@@ -119,7 +119,7 @@ GET /logs/_search
 
 Elasticsearch will use the inverted indices to quickly find that Document 1 matches both criteria, allowing you to retrieve relevant logs in milliseconds.
 
-Conclusion
+### Conclusion
 The inverted index is a fundamental component of Elasticsearch, enabling fast and efficient searches across large datasets. Whether you're searching through documents or centralized logs, the inverted index allows Elasticsearch to quickly pinpoint relevant information, making it a powerful tool for real-time search and analytics.
 
 By understanding how inverted indices work, you can better appreciate the power of Elasticsearch and leverage its capabilities to build robust search solutions in your applications. Whether dealing with massive amounts of text data or managing logs from a distributed system, Elasticsearch and its underlying technology provide the speed and flexibility needed to handle today's search demands.
