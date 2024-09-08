@@ -43,7 +43,6 @@ One of the most common use cases for Elasticsearch is centralized log management
 Assume you have the following logs indexed in Elasticsearch:
 
 ```json
-POST /logs/_doc/1
 {
   "timestamp": "2024-09-08T10:00:00Z",
   "log_level": "ERROR",
@@ -51,7 +50,6 @@ POST /logs/_doc/1
   "source_ip": "192.168.1.10"
 }
 
-POST /logs/_doc/2
 {
   "timestamp": "2024-09-08T10:01:00Z",
   "log_level": "WARN",
@@ -59,7 +57,6 @@ POST /logs/_doc/2
   "source_ip": "192.168.1.20"
 }
 
-POST /logs/_doc/3
 {
   "timestamp": "2024-09-08T10:02:00Z",
   "log_level": "INFO",
