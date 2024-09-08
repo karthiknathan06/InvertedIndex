@@ -101,7 +101,6 @@ In this case, Elasticsearch creates inverted indices for fields like log_level, 
 To search for all logs with a log_level of "ERROR" and containing the word "Database" in the message, you can use the following Elasticsearch query:
 
 ```json
-GET /logs/_search
 {
   "query": {
     "bool": {
